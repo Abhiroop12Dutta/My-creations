@@ -1,0 +1,43 @@
+body {
+    
+    text-align:center;
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-weight:300;
+    font-family: monospace;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to right, blue , cyan);
+}
+
+#Games {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to right, red , orange);
+}
+
+#Bots {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to right, cyan , lightgreen);
+}
+
+img { transition: transform 0.2s; } 
+
+img:hover { transform: scale(1.2); }
+
+img 
